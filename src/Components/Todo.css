@@ -1,0 +1,123 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* background-color: #00001D */
+}
+
+.main-container {
+    border: 1px solid white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #00001D
+}
+
+.item-container {
+    top: 150px;
+    position: absolute;
+    /* border: 1px solid white; */
+}
+
+h2 {
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.action-container {
+    display: flex;
+}
+
+input {
+    width: 290px;
+    height: 40px;
+    font-size: 17px;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    padding: 5px;
+
+    border-top-left-radius: 5px;
+    border-end-start-radius: 5px;
+}
+
+.addbutton {
+    height: 40px;
+    width: 40px;
+    background-color: whitesmoke;
+    border: none;
+    font-size: 25px;
+    justify-content: flex-end;
+    border-top-right-radius: 5px;
+    border-end-end-radius: 5px;
+}
+
+.addbutton:hover {
+    color: blue
+}
+
+.showitems {
+    margin-top: 30px;
+}
+
+
+.listitem-container {
+    height: 35px;
+    margin-top: 6px;
+    display: flex;
+    /* border: 1px solid white; */
+    justify-content: space-between;
+    background-color: #273be2;
+    align-items: center;
+border-radius: 5px;
+}
+
+
+p {
+    color: #fff;
+    margin-left: 6px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.listbutton {
+    height: 35px;
+    width: 40px;
+    background-color: #273be2;
+    border: none;
+    font-size: 25px;
+    justify-content: flex-end;
+    color: white;
+    border-top-right-radius: 5px;
+    border-end-end-radius: 5px;
+}
+
+.listbutton:hover {
+    color: black
+}
+
+.removealldiv {
+    margin-top: 20px;
+    /* border:1px solid white; */
+    display: flex;
+    justify-content: center;
+}
+
+.removebutton {
+    background-color: whitesmoke;
+    width: 150px;
+    font-size: 14px;
+    padding: 10px;
+    color: #676767;
+    border-radius: 5px;
+
+}
+
+.removebutton:hover {
+    background-color: #273be2;
+    color: white
+}
